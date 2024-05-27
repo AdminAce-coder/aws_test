@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	sess, err := config.NewAWSSession("us-west-2")
+	sess, err := config.NewAWSSession()
 	if err != nil {
 		log.Fatalf("failed to create session: %v", err)
 	}
